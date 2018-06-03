@@ -32,7 +32,9 @@ int main()
             case 2: rectangle.getMeasurements(shape, shape);
                 break;
             case 3: triangle.getMeasurements(shape, shape);
+                break;
             case 4: trapezoid.getMeasurements(shape, shape, shape);
+                break;
         }
     } while (shape != 5);
     return 0;
